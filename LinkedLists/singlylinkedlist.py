@@ -97,10 +97,19 @@ ll.delete_at_position(2)  # Delete node at position 2
 ll.display()
 
 '''
+Outputs:
 2 -> 3 -> 5 -> None
 3 -> 5 -> None
 None
 10 -> 30 -> 20 -> None
 10 -> 30 -> 20 -> None
 10 -> 20 -> None
+'''
+
+'''
+Time Complexity:
+Insertion at head: O(1)
+Insertion at tail: O(N)
+Deletion: O(N) (worst case)
+Traversal: O(N)
 '''
